@@ -1,5 +1,38 @@
 .App {
   text-align: center;
+  background-color: #eefde0 !important;
+  height: 100%;
+}
+#hero-content {
+  padding: 15px;
+  font-weight: 700;
+  font-size: 26px;
+  width: 40%;
+  text-align: left;
+  margin-left: 6%;
+}
+@media only screen and (max-width: 767px) {
+  #background-image {
+    display: none;
+  }
+  #hero-side-image {
+    height: 80px;
+  }
+  #hero-content {
+    padding: 10px;
+    font-weight: 700;
+    font-size: 23px;
+    width: 100%;
+  }
+  #hero-side-div {
+    margin: 10px;
+  }
+  #hero-image {
+    height: 230px;
+  }
+  #nav-main {
+    margin: 0 !important;
+  }
 }
 
 .App-logo {
