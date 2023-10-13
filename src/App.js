@@ -1,12 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Home from "./Home";
+import Home from "./components/Home";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import * as mdb from "mdb-ui-kit"; // lib
 import { Input } from "mdb-ui-kit"; // module
-import ProductSection from "./ProductSection";
+import ProductSection from "./components/ProductSection";
 
 function App() {
   return (
