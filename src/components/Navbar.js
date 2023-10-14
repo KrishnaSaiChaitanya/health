@@ -20,7 +20,7 @@ const Navbar = () => {
             <i className="fas fa-bars"></i>
           </button>
           <a className="navbar-brand mt-2 mt-lg-0" href="#">
-            <img src="logo.svg" height="55" alt="MDB Logo" loading="lazy" />
+            <img src="logo.svg" height="60" alt="MDB Logo" loading="lazy" />
           </a>
         </div>
         <div
@@ -57,27 +57,23 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <div
-                class="input-group "
-                style={{ backgroundColor: "#08F820", borderRadius: "30px" }}
-              >
-                <div class="form-outline ">
+              <div class="container d-flex justify-content-center">
+                <div class="input-group col-sm-4  input-group-lg">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text google">
+                      <img src="search.svg" />
+                    </span>
+                  </div>
                   <input
-                    style={{
-                      borderRadius: "30px",
-                      width: "165px",
-                      height: "45px",
-                      display: "flex",
-                      justifyContent: "center",
-                    }}
-                    id="search-input-sidenav"
-                    type="search"
+                    type="text"
                     class="form-control"
+                    placeholder="Search"
+                    style={{
+                      borderTopRightRadius: "30px",
+                      borderBottomRightRadius: "30px",
+                      width: "120px",
+                    }}
                   />
-                  <label class="form-label" for="form1">
-                    <img src="search.svg" />
-                    Search
-                  </label>
                 </div>
               </div>
             </li>

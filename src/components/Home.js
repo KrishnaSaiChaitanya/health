@@ -44,8 +44,8 @@ function Home() {
                   <img id="hero-side-image" src="hero-2.svg" />
                 </div>
                 <div
-                  className="col-md-9 col-12 my-3 "
-                  style={{ textAlign: "left", paddingLeft: "1rem" }}
+                  className="col-md-9 col-12 my-3"
+                  style={{ textAlign: "left", paddingLeft: "2rem" }}
                 >
                   <h4>Healthy Eating Refresh:</h4>
                   <p style={{ fontSize: "14px" }}>
@@ -61,7 +61,7 @@ function Home() {
                 </div>
                 <div
                   className="col-md-9 col-12 my-3 "
-                  style={{ textAlign: "left", paddingLeft: "25px" }}
+                  style={{ textAlign: "left", paddingLeft: "2rem" }}
                 >
                   <h4 style={{ fontWeight: "700" }}>Healthy Eating Refresh:</h4>
                   <p style={{ fontSize: "14px" }}>
@@ -76,7 +76,7 @@ function Home() {
                 </div>
                 <div
                   className="col-md-9 col-12 my-3 "
-                  style={{ textAlign: "left", paddingLeft: "25px" }}
+                  style={{ textAlign: "left", paddingLeft: "2rem" }}
                 >
                   <h4>Healthy Eating Refresh:</h4>
                   <p style={{ fontSize: "14px" }}>

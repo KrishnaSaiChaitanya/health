@@ -69,3 +69,23 @@
     transform: rotate(360deg);
   }
 }
+
+.google {
+  border-top-left-radius: 32px !important;
+  border-bottom-left-radius: 32px !important;
+  background-color: #08f820;
+}
+
+.form-control:focus {
+  background-color: #08f820;
+
+  outline: 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.form-control {
+  background-color: #08f820;
+  width: 60px;
+  border-right: 0 !important;
+  border-left: 0 !important;
+}
