@@ -20,7 +20,13 @@ const Navbar = () => {
             <i className="fas fa-bars"></i>
           </button>
           <a className="navbar-brand mt-2 mt-lg-0" href="#">
-            <img src="logo.svg" height="60" alt="MDB Logo" loading="lazy" />
+            <img
+              src="logo.svg"
+              // height="60"
+              style={{ width: "300px" }}
+              alt="MDB Logo"
+              loading="lazy"
+            />
           </a>
         </div>
         <div
